@@ -1,0 +1,4 @@
+rootProject.name = 'EventTrackerProjectSpringBoot'
+
+
+includeFlat "EventTrackerProjectJPA"
