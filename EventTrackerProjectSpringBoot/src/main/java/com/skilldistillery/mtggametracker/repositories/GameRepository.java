@@ -11,5 +11,7 @@ public interface GameRepository extends JpaRepository<Game, Integer> {
 		List<Game> findByDeck(String deck);
 	
 		List<Game> findByOpponentDeck(String deck);
+		
+		
 	
 }

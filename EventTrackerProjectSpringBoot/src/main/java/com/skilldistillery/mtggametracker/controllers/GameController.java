@@ -46,10 +46,6 @@ public class GameController {
 	}
 	
 	
-	
-	
-	
-	
 	@PostMapping("games")
 	public String create(@RequestBody Game game, HttpServletRequest req, HttpServletResponse resp) {
 		game = gSvc.submitGame(game);
