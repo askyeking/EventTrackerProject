@@ -1,14 +1,15 @@
 ## Event Tracker Project
 
 #### Technologies Used
-*Spring Tool Suite
-*Spring Boot
-*Hibernate
-*MySql
-*Spring Data JPA
-*Gradle
-*Java
-RESTful Services
+* Spring Tool Suite
+* Spring Boot
+* JSON API
+* Hibernate
+* MySql
+* Spring Data JPA
+* Gradle
+* Java
+* RESTful Services
 
 
 #### Overview
