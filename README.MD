@@ -23,10 +23,14 @@ Full C.R.U.D. operations are implemented, as well as a couple custom Querys.
 ### Routes
 
 #### Get
-* api/games/                      Get's all games from the database.
-* api/games/{id}                  Get's a game by Id.
-* api/gamesDeck/{deck}            Get's all games where you played a specific deck. (sample: "Fish")
-* api/gamesOpponentDeck/{deck}    Get's all games where your opponent played a specific deck. (sample: "Affinity")
+* api/games/                      
+- Get's all games from the database.
+* api/games/{id}                  
+- Get's a game by Id.
+* api/gamesDeck/{deck}            
+- Get's all games where you played a specific deck. (sample: "Fish")
+* api/gamesOpponentDeck/{deck}    
+- Get's all games where your opponent played a specific deck. (sample: "Affinity")
 
 #### Post
 * api/games                       Add's a game to the database
