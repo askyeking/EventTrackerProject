@@ -69,10 +69,6 @@ public class GameServiceImpl implements GameService {
 		
 	}
 	
-	
-	
-	
-	
 	@Override
 	public Boolean delete(int id) {
 		Boolean isDeleted = false;

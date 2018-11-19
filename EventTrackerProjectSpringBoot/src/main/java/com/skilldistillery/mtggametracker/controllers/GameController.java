@@ -47,13 +47,13 @@ public class GameController {
 	
 	
 	@PostMapping("games")
-	public String create(@RequestBody Game game, HttpServletRequest req, HttpServletResponse resp) {
+	public Game create(@RequestBody Game game, HttpServletRequest req, HttpServletResponse resp) {
 		game = gSvc.submitGame(game);
 		resp.setStatus(201);
 		String newResourceUrl = req.getRequestURL() +"/" + game.getId();
 		resp.setHeader("Location", newResourceUrl);
 		String responseBody="{ \"result\": \"created\", \"id\":" + game.getId() + ",\"url:\":\"" + newResourceUrl + "\"}";
-		return responseBody;
+		return game;
 	}
 	
 	
