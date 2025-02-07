@@ -65,6 +65,7 @@ START TRANSACTION;
 USE `vinyldb`;
 INSERT INTO `band` (`id`, `name`, `image_url`) VALUES (1, 'Cap\'N Jazz', 'https://i.scdn.co/image/2128693a4598c64a0c14f25ba3ee0f8f2afd3ab2');
 INSERT INTO `band` (`id`, `name`, `image_url`) VALUES (2, 'Callous Daoboys', 'https://i.ytimg.com/vi/GPaD8HmcRVA/maxresdefault.jpg');
+INSERT INTO `band` (`id`, `name`, `image_url`) VALUES (3, 'Coheed & Cambria', 'https://guitar.com/wp-content/uploads/2022/06/Coheed-Cambria-Credit-Alexandra-Gavillet@2560x1625.jpg');
 
 COMMIT;
 
@@ -75,7 +76,9 @@ COMMIT;
 START TRANSACTION;
 USE `vinyldb`;
 INSERT INTO `vinyl` (`id`, `title`, `image_url`, `band_id`) VALUES (1, 'Analphabetapolothology', 'https://m.media-amazon.com/images/I/61Lop-CLHXL._UF1000,1000_QL80_.jpg', 1);
-INSERT INTO `vinyl` (`id`, `title`, `image_url`, `band_id`) VALUES (2, 'Celebrity Therapish', 'https://f4.bcbits.com/img/a0509988875_65', 2);
+INSERT INTO `vinyl` (`id`, `title`, `image_url`, `band_id`) VALUES (2, 'Celebrity Therapist', 'https://f4.bcbits.com/img/a0509988875_65', 2);
+INSERT INTO `vinyl` (`id`, `title`, `image_url`, `band_id`) VALUES (3, 'Die On Mars', 'https://i.scdn.co/image/ab67616d0000b2733432f4c0648ba50db1b4749d', 2);
+INSERT INTO `vinyl` (`id`, `title`, `image_url`, `band_id`) VALUES (4, 'In Keeping Secrets of Silent Earth: 3', 'https://cdn-p.smehost.net/sites/35faef12c1b64b21b3fda052d205af13/wp-content/uploads/2014/10/41Qp-SdPHxL.jpg', 3);
 
 COMMIT;
 
